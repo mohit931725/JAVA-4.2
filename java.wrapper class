@@ -1,0 +1,12 @@
+public class WrapperExample {
+    public static void main(String[] args) {
+        Integer intObj = Integer.valueOf(100);
+        Double doubleObj = Double.valueOf(99.99);
+        Character charObj = Character.valueOf('A');
+
+        System.out.println("Wrapper Class Examples:");
+        System.out.println("Integer object: " + intObj);
+        System.out.println("Double object: " + doubleObj);
+        System.out.println("Character object: " + charObj);
+    }
+}
