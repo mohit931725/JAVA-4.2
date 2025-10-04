@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class LambdaExample {
+    public static void main(String[] args) {
+        List<String> names = Arrays.asList("Ravi", "Amit", "Sita", "Neha");
+
+        System.out.println("Printing names using Lambda:");
+        names.forEach(name -> System.out.println(name));
+
+        System.out.println("\nNames starting with 'S':");
+        names.stream()
+             .filter(name -> name.startsWith("S"))
+             .forEach(System.out::println);
+    }
+}
