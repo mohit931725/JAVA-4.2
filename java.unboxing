@@ -1,0 +1,12 @@
+public class UnboxingExample {
+    public static void main(String[] args) {
+        Integer intObj = Integer.valueOf(50);
+        Double doubleObj = Double.valueOf(10.5);
+
+        int num = intObj;       // Auto-unboxing
+        double value = doubleObj; // Auto-unboxing
+
+        System.out.println("Unboxed int: " + num);
+        System.out.println("Unboxed double: " + value);
+    }
+}
